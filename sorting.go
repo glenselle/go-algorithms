@@ -21,7 +21,7 @@ func insertionSort(A []int) {
 }
 
 func main() {
-  a := make([]int, 6)
+  a := make([]int, 6) // [4 3 1 7 9 10]
   a[0] = 4
   a[1] = 3
   a[2] = 1
@@ -31,5 +31,5 @@ func main() {
 
   insertionSort(a)
   
-  fmt.Println(a)
+  fmt.Println(a) // [1 3 4 7 9 10]
 }
