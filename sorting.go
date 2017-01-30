@@ -21,13 +21,7 @@ func selectionSort(A []int) {
 }
 
 func main() {
-  a := make([]int, 6) // [4 3 1 7 9 10]
-  a[0] = 4
-  a[1] = 3
-  a[2] = 1
-  a[3] = 7
-  a[4] = 9
-  a[5] = 10
+  a := []int{4, 3, 1, 9, 7, 10} // [4 3 1 9 7 10]
 
   selectionSort(a)
   
