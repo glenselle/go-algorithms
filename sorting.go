@@ -4,7 +4,7 @@ import (
   "fmt"
 )
 
-func insertionSort(A []int) {
+func selectionSort(A []int) {
   for j := 0; j < len(A); j++ {
     key := A[j]
     m := j
@@ -29,7 +29,7 @@ func main() {
   a[4] = 9
   a[5] = 10
 
-  insertionSort(a)
+  selectionSort(a)
   
   fmt.Println(a) // [1 3 4 7 9 10]
 }
